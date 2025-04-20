@@ -1,0 +1,17 @@
+name: MarvTime
+main: marvtechnology.marvtime.Marvtime
+version: 1.0
+api-version: 1.20
+folia-supported: true
+author: MarvTechnology:mask
+
+commands:
+  marvtime:
+    description: Show the current MarvTime
+    usage: /marvtime
+    permission: marvtime.view
+
+permissions:
+  marvtime.view:
+    description: Allows viewing MarvTime
+    default: true

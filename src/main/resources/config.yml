@@ -1,0 +1,9 @@
+storage:
+  type: "json"  # mariadbまたは "json"
+
+  mariadb:
+    host: "localhost"
+    port: 3306
+    database: "marvtime"
+    username: "root"
+    password: "password"
